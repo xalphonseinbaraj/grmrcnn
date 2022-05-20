@@ -1,4 +1,5 @@
 
+
 from setuptools import setup, find_packages
 import codecs
 import os
@@ -51,9 +52,6 @@ requirements = [
 	'Markdown==3.1.1',
 	'matplotlib',
 	'matplotlib-inline==0.1.3',
-	'mkl-fft==1.1.0',
-	'mkl-random==1.1.1',
-	'mkl-service==2.3.0',
 	'mrcnn==0.2',
 	'networkx',
 	'numpy==1.19.1',
@@ -67,12 +65,6 @@ requirements = [
 	'partd',
 	'pickleshare==0.7.5',
 	'Pillow==8.4.0',
-	'prompt-toolkit==3.0.23',
-	'protobuf==3.12.3',
-	'pyasn1==0.4.8',
-	'pyasn1-modules==0.2.7',
-	'pycparser',
-	'Pygments==2.10.0',
 	'PyJWT==1.7.1',
 	'pyOpenSSL',
 	'pyparsing==2.4.7',
@@ -97,19 +89,8 @@ requirements = [
 	'tensorboard-plugin-wit==1.8.0',
 	'tensorflow==1.14.0',
 	'tensorflow-estimator==1.14.0',
-	'termcolor==1.1.0',
-	'threadpoolctl==3.0.0',
-	'tifffile==2020.10.1',
-	'toolz',
-	'tornado', 
-	'traitlets==5.1.1',
 	'twine==4.0.0',
-	'urllib3==1.25.9',
-	'wcwidth==0.2.5',
-	'Werkzeug==0.16.1',
-	'win-inet-pton==1.1.0',
-	'wincertstore==0.2',
-	'wrapt==1.12.1'
+	'urllib3==1.25.9'
     ]
 # Setting up
 setup(
@@ -141,4 +122,3 @@ setup(
         "Natural Language :: English",
     ]
 )
-
