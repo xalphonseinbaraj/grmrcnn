@@ -129,6 +129,7 @@ setup(
 	package_data={
         'grmrcnn': ['*.dat','*.xml','*.h5']
 		    },
+    install_requires=requirements,
     license="MIT license",
     zip_safe=False,
     keywords='gradcam++ with mask rcnn',
