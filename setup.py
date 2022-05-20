@@ -115,7 +115,7 @@ requirements = [
 # Setting up
 setup(
     name="grmrcnn",
-    version='0.0.11',
+    version='0.0',
 	description='This is for object detection model by combining Gradcam++ with MaskRCNN',
 	long_description=readme,
 	long_description_content_type="text/markdown",
