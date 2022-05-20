@@ -44,7 +44,6 @@ requirements = [
 	'joblib==1.1.0',
 	'Keras==2.3.1',
 	'Keras-Applications', 
-	'keras-contrib@git+https://www.github.com/keras-team/keras-contrib.git/',
 	'Keras-Preprocessing==1.1.0',
 	'keras-resnet==0.2.0',
 	'kiwisolver',
