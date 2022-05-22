@@ -1,1 +1,1 @@
-This is for object detection model by combining Gradcam++ with MaskRCNN
+This python package is used for object detection that combines Gradient-weighted Class Activation Mapping++ (Grad-CAM++) for localization and Mask Regional Convolution Neural Network (Mask R-CNN) for object detection.
