@@ -28,17 +28,13 @@ The main process of this models as follows
 
 [**Installation**](https://github.com/xalphonseinbaraj/grmrcnn/blob/master/requirements.txt)
 
-Requirements:
-
-            Python 3.7
+Requirements: Python 3.7
             
 Note:
      We used tensorflow 1.x version and keras 2.3.1.
-     
      Finally, install this module from pypi using **pip**.
      
-     
-                                             pip install grmrcnn
+                                                  pip install grmrcnn
                                         
 **How this model(Grad-CAM++ with Mask RCNN) works:**
 
