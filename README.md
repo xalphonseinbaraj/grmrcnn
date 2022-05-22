@@ -32,15 +32,13 @@ Requirements:
             Python 3.7
 Note:
      We used tensorflow 1.x version and keras 2.3.1.
+     Finally, install this module from pypi using **pip**:
      
-     Finally, install this module from pypi using pip:
-    
-       
-                                          pip install grmrcnn
+                                             pip install grmrcnn
                                         
-How this model(Grad-CAM++ with Mask RCNN) works:
+**How this model(Grad-CAM++ with Mask RCNN) works:**
 
-If you want to know more about GradCAM++ with Mask RCNN,  [read our article](https://www.mdpi.com/2075-1702/10/5/340/htm)
+        If you want to know more about GradCAM++ with Mask RCNN,  [read our article](https://www.mdpi.com/2075-1702/10/5/340/htm)
 
 **Thanks**
 
