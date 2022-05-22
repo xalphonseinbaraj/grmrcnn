@@ -16,7 +16,7 @@ The main process of this models as follows
 
 ![image](https://user-images.githubusercontent.com/47241538/169694957-ac0ac8a4-312f-4800-9a70-681463b0b221.png)
 
-[**Use the following code:**]
+**Use the following code:**
                                        
                                         from tensorflow import keras
                                         import glob
@@ -26,15 +26,16 @@ The main process of this models as follows
                                         path = glob.glob("...../Images/*.jpg") #Image Path
                                         GradCAMMRCNN=grmrcnn(model,path)
 
-[**Installation**]
+[**Installation**](https://github.com/xalphonseinbaraj/grmrcnn/blob/master/requirements.txt)
 
 Requirements:
             Python 3.7
 Note:
-     We used tensorflow 1.x version and keras 2.3.1
-    
-    Finally, install this module from pypi using pip:
+     We used tensorflow 1.x version and keras 2.3.1.
      
+     Finally, install this module from pypi using pip:
+    
+       
                                           pip install grmrcnn
                                         
 How this model(Grad-CAM++ with Mask RCNN) works:
@@ -43,14 +44,8 @@ If you want to know more about GradCAM++ with Mask RCNN,  [read our article](htt
 
 **Thanks**
 
-Many, many thanks to our advisor professor Dr.Jyh-Horng Jeng and co-advisor Dr.Jer-Guang Hsieh for guiding and helping for this amazing model and our collegues Mr.Julio Jerison Macrohon and Charlyn Villavicencio to publish article successfully.
+Many, many thanks to our advisor professor Dr.Jyh-Horng Jeng and co-advisor Dr.Jer-Guang Hsieh for guiding and helping for this amazing model and our collegues Mr.Julio Jerison Macrohon and Ms.Charlyn Villavicencio to publish this article successfully.
 
 This research was funded as a scholar of the Ministry of Science and Technology (MOST), Taiwan and I-Shou University, Kaohsiung City, Taiwan.
 
 Thanks to everyone who works on all the awesome Python data science libraries like numpy, scipy, scikit-image, pillow, etc, etc that makes this kind of stuff so easy and fun in Python.
-
-
-
-
-
-
