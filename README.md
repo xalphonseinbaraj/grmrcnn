@@ -16,12 +16,35 @@ The main process of this models as follows
 
 ![image](https://user-images.githubusercontent.com/47241538/169694957-ac0ac8a4-312f-4800-9a70-681463b0b221.png)
 
-Use the following code:
+**Use the following code:**
                                        
-                                       from tensorflow import keras
+                                        from tensorflow import keras
                                         import glob
                                         from grmrcnn import grmrcnn
                                         #need to mention and keep the model in the current directory (ResNet -Recommended)
                                         model = keras.models.load_model("ResNet50.h5") 
                                         path = glob.glob("...../Images/*.jpg") #Image Path
-                                        fa=grmrcnn(model,path)
+                                        GradCAMMRCNN=grmrcnn(model,path)
+
+**Installation**
+
+Requirements:
+            Python 3.7
+Note:
+     We used tensorflow 1.x version and keras 2.3.1
+     
+     Finally, install this module from pypi using pip:
+     
+                                        pip install grmrcnn
+                                        
+How this model(Grad-CAM++ with Mask RCNN) works:
+
+If you want to know more about GradCAM++ with Mask RCNN,  read our article
+
+
+
+
+
+
+
+
