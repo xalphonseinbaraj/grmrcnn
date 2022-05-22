@@ -17,9 +17,11 @@ The main process of this models as follows
 ![image](https://user-images.githubusercontent.com/47241538/169694957-ac0ac8a4-312f-4800-9a70-681463b0b221.png)
 
 Use the following code:
-from tensorflow import keras
-import glob
-from grmrcnn import grmrcnn
-**#need to mention and keep the model in the current directory (ResNet -Recommended)**
-model = keras.models.load_model("ResNet50.h5") 
-path = glob.glob("...../Images/*.jpg") 
+                                       
+                                       from tensorflow import keras
+                                        import glob
+                                        from grmrcnn import grmrcnn
+                                        #need to mention and keep the model in the current directory (ResNet -Recommended)
+                                        model = keras.models.load_model("ResNet50.h5") 
+                                        path = glob.glob("...../Images/*.jpg") #Image Path
+                                        fa=grmrcnn(model,path)
