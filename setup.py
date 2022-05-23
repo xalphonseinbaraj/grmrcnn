@@ -96,7 +96,7 @@ requirements = [
 setup(
     name="grmrcnn",
     version='0.2',
-    description='This is for object detection model by combining Gradcam++ with MaskRCNN',
+    description='This python package is used for object detection that combines Gradient-weighted Class Activation Mapping++ (Grad-CAM++)for localization and Mask Regional Convolution Neural Network (Mask R-CNN) for object detection. Hence this model is knowns as GradCAM-MLRCNN',
     long_description=readme,
     long_description_content_type="text/markdown",
     author="AlphonseInbarajXavier",
