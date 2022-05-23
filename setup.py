@@ -95,10 +95,10 @@ requirements = [
 # Setting up
 setup(
     name="grmrcnn",
-    version='0.1',
-	description='This is for object detection model by combining Gradcam++ with MaskRCNN',
-	long_description=readme,
-	long_description_content_type="text/markdown",
+    version='0.2',
+    description='This is for object detection model by combining Gradcam++ with MaskRCNN',
+    long_description=readme,
+    long_description_content_type="text/markdown",
     author="AlphonseInbarajXavier",
     author_email="xalphonse@gmail.com",
     url='https://github.com/xalphonseinbaraj/grmrcnn.git',
@@ -118,7 +118,7 @@ setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Microsoft :: Windows",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Natural Language :: English",
     ]
 )
