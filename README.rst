@@ -41,13 +41,16 @@ Requirements
 
 - Python 3.7
             
-Note:
+Note
+-------
      We used tensorflow 1.x version and keras 2.3.1.
-    Then, install this module from pypi using ``pip``
+    Then, install this module from pypi using "pip"
     
 .. code:: python 
-                                         pip install grmrcnn
                                         
+                                        pip install grmrcnn
+                                        
+
 How this model(Grad-CAM++ with Mask RCNN) works:
 -----------------
 
